@@ -22,6 +22,7 @@ export default function fancybox(btn = '[data-fancy-open]', wrapper = '[data-mod
       modal.querySelector('.title').textContent = title
       modal.querySelector('.content').innerText = description
 
+      modal.classList.remove('out')
       modal.classList.add('open')
     })
   })
