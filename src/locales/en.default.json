@@ -1,1 +1,12 @@
-{}
+{
+  "sections": {
+    "brand-list": {
+      "blocks": {
+        "brand": {
+          "more_information": "More Information",
+          "visit": "Visit"
+        }
+      }
+    }
+  }
+}
