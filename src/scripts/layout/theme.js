@@ -13,3 +13,9 @@
 
 import "../../styles/theme.scss";
 import "../../styles/theme.css.liquid";
+
+// modules
+import fancybox from "../modules/fancybox";
+
+// init
+fancybox()

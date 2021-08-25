@@ -1,0 +1,34 @@
+.container {
+  padding: 1rem;
+}
+.d-block {
+  display: block;
+}
+.text-white {
+  color: white;
+}
+.text-center {
+  text-align: center;
+}
+.text-underline {
+  text-decoration: underline;
+}
+.mx-auto {
+  margin: auto;
+}
+.pointer {
+  cursor: pointer;
+}
+.w-100 {
+  width: 100%;
+}
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+@media (max-width: 767px) {
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}

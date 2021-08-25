@@ -1,0 +1,126 @@
+<div class="container" data-section-id={{ section.id }}>
+  <!-- HEADING -->
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'heading' -%}
+      <h3 class="heading text-center" {{ block.shopify_attributes }}>
+        {{ block.settings.text | escape }}
+      </h3>
+    {%- endif -%}
+  {%- endfor -%}
+  <!-- ./HEADING -->
+
+  <!-- BRAND LIST -->
+  <div class="row">
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'brand' -%}
+        <div class="col-3 col-md-6" {{ block.shopify_attributes }}>
+          <div class="brand card">
+            <img class="mx-auto w-100" src="{{ block.settings.image | img_url: 'master' }}" alt="">
+            <div class="overlay">
+              <div class="content">
+                <h1 class="text-white">
+                  {{ block.settings.name | escape | upcase }}
+                </h1>
+                <a class="text-white d-block text-underline pointer"
+                  data-content="{{ block.settings.description }}"
+                  data-title="{{ block.settings.name | escape | upcase }}"
+                  data-fancy-open
+                >
+                  {{ 'sections.brand-list.blocks.brand.more_information' | t }}
+                </a>
+                <a class="text-white d-block" href="{{ block.settings.link }}">
+                  {{ 'sections.brand-list.blocks.brand.visit' | t }}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+  <!-- ./BRAND LIST -->
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.brand-list.name",
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.brand-list.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "t:sections.brand-list.blocks.heading.settings.text.label",
+          "default": "Default heading",
+          "info": "t:sections.brand-list.blocks.heading.settings.text.info"
+        }
+      ]
+    },
+    {
+      "type": "brand",
+      "name": "t:sections.brand-list.blocks.brand.name",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.brand-list.blocks.brand.settings.image.label",
+          "info": "t:sections.brand-list.blocks.brand.settings.image.info"
+        },
+        {
+          "type": "header",
+          "content": "Details"
+        },
+        {
+          "type": "textarea",
+          "id": "name",
+          "label": "t:sections.brand-list.blocks.brand.settings.name.label",
+          "default": "Brand Name",
+          "info": "t:sections.brand-list.blocks.brand.settings.name.info"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "t:sections.brand-list.blocks.brand.settings.description.label",
+          "default": "Brand Description",
+          "info": "t:sections.brand-list.blocks.brand.settings.description.info"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.brand-list.blocks.brand.settings.link.label",
+          "info": "t:sections.brand-list.blocks.brand.settings.link.info"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.brand-list.presets.name",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "brand"
+        },
+        {
+          "type": "brand"
+        },
+        {
+          "type": "brand"
+        },
+        {
+          "type": "brand"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
