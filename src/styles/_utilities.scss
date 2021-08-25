@@ -27,8 +27,8 @@
   width: 25%;
 }
 @media (max-width: 767px) {
-  .col-md-6 {
+  .col-md-12 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 100%;
   }
 }

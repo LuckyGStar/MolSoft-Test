@@ -13,7 +13,7 @@
   <div class="row">
     {%- for block in section.blocks -%}
       {%- if block.type == 'brand' -%}
-        <div class="col-3 col-md-6" {{ block.shopify_attributes }}>
+        <div class="col-3 col-md-12" {{ block.shopify_attributes }}>
           <div class="brand card">
             <img class="mx-auto w-100" src="{{ block.settings.image | img_url: 'master' }}" alt="">
             <div class="overlay">

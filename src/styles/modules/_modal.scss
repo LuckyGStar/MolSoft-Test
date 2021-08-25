@@ -85,3 +85,13 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  #modal-container {
+    .modal-background {
+      .modal {
+        padding: 10px;
+      }
+    }
+  }
+}
