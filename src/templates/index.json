@@ -1,7 +1,113 @@
 {
   "sections": {
+    "162990591760b24ad8": {
+      "type": "brand-list",
+      "blocks": {
+        "162990591760b24ad8-0": {
+          "type": "heading",
+          "settings": {
+            "text": "All of our brands loved by customers!"
+          }
+        },
+        "162990591760b24ad8-1": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.png",
+            "name": "Adidas",
+            "description": "Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor. Praesent ultricies dignissim ex, at volutpat sapien ullamcorper rhoncus.",
+            "link": "https:\/\/adidas.com"
+          }
+        },
+        "162990591760b24ad8-2": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.png",
+            "name": "Adidas Neo",
+            "description": "Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor. Praesent ultricies dignissim ex, at volutpat sapien ullamcorper rhoncus.",
+            "link": "https:\/\/adidas.com"
+          }
+        },
+        "162990591760b24ad8-3": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.png",
+            "name": "AfterShokz",
+            "description": "Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor. Praesent ultricies dignissim ex, at volutpat sapien ullamcorper rhoncus.",
+            "link": "https:\/\/aftershokz.com"
+          }
+        },
+        "162990591760b24ad8-4": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.png",
+            "name": "AKU",
+            "description": "Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor. Praesent ultricies dignissim ex, at volutpat sapien ullamcorper rhoncus.",
+            "link": "https:\/\/aku.com"
+          }
+        },
+        "fa51cb83-3ef6-4612-b5a4-b55d6b3634a9": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5.png",
+            "name": "AKRO",
+            "description": "Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor. Praesent ultricies dignissim ex, at volutpat sapien ullamcorper rhoncus.",
+            "link": "https:\/\/akro.com"
+          }
+        },
+        "3c7ec7ad-5215-43ea-829a-869c0bb51e45": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6.png",
+            "name": "Anie Cale",
+            "description": "Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor. Praesent ultricies dignissim ex, at volutpat sapien ullamcorper rhoncus.",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "54ade947-9ccd-4923-bdff-15682fe099cd": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.png",
+            "name": "AQUA Lung",
+            "description": "Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor. Praesent ultricies dignissim ex, at volutpat sapien ullamcorper rhoncus.",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "cbfd486d-2dc2-403b-a3db-c427ca801ba0": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.png",
+            "name": "Aqua Sphere",
+            "description": "Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor. Praesent ultricies dignissim ex, at volutpat sapien ullamcorper rhoncus.",
+            "link": "https:\/\/google.com"
+          }
+        },
+        "ddd92743-1be8-4f51-bba8-1cd012ff9e4c": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9.png",
+            "name": "ARCTERYX",
+            "description": "Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor. Praesent ultricies dignissim ex, at volutpat sapien ullamcorper rhoncus.",
+            "link": "https:\/\/google.com"
+          }
+        }
+      },
+      "block_order": [
+        "162990591760b24ad8-0",
+        "162990591760b24ad8-1",
+        "162990591760b24ad8-2",
+        "162990591760b24ad8-3",
+        "162990591760b24ad8-4",
+        "fa51cb83-3ef6-4612-b5a4-b55d6b3634a9",
+        "3c7ec7ad-5215-43ea-829a-869c0bb51e45",
+        "54ade947-9ccd-4923-bdff-15682fe099cd",
+        "cbfd486d-2dc2-403b-a3db-c427ca801ba0",
+        "ddd92743-1be8-4f51-bba8-1cd012ff9e4c"
+      ],
+      "settings": {
+      }
+    }
   },
   "order": [
-
+    "162990591760b24ad8"
   ]
 }
