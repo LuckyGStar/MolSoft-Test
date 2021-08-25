@@ -1,0 +1,44 @@
+{
+  "settings_schema": {
+  },
+  "sections": {
+    "brand-list": {
+      "name": "Brand List",
+      "blocks": {
+        "heading": {
+          "name": "Heading",
+          "settings": {
+            "text": {
+              "label": "Text",
+              "info": "Please put heading here."
+            }
+          }
+        },
+        "brand": {
+          "name": "Brand",
+          "settings": {
+            "image": {
+              "label": "Image",
+              "info": "95px * 74px"
+            },
+            "name": {
+              "label": "Name",
+              "info": "Please put brand name here."
+            },
+            "description": {
+              "label": "Description",
+              "info": "Please put brand details here."
+            },
+            "link": {
+              "label": "Link",
+              "info": "Please put brand link here."
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Brand List"
+      }
+    }
+  }
+}
